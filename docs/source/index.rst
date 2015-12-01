@@ -2,7 +2,7 @@ Simple Sample Python code's documentation!
 ==========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    license
    help
@@ -30,6 +30,14 @@ Developer Guide
    :maxdepth: 2
 
    developer/contribute/howtocont.rst
+
+Auto Generated Documentation
+============================
+
+.. toctree::
+   :maxdepth: 2
+
+   code/code.rst
 
 Indices and tables
 ==================

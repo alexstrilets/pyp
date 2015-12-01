@@ -18,6 +18,10 @@ def getLastPullDate(fname):
         return int(lastLine.split(',')[0])
 
 def pullData(stock):
+    """
+    Test that the pixel units are being returned properly for an image
+    with known units.
+    """
     print "-------- Pulling stock " + stock
     print str(datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'))
     urlToPull = 'http://chartapi.finance.yahoo.com/instrument/1.0/'+stock+'/chartdata;type=quote;range=1y/csv'
